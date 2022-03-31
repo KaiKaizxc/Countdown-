@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka&family=Poppins:wght@300;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+
+  margin: 0;
+  padding: 0;
+  color: seashell;
+}
+
+.full-screen-container {
+  background-image: url(/assets/me.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: -20rem;
+}
+
+.countdown-container {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.big-text {
+  font-size: 6rem;
+  line-height: 1;
+  margin: 1rem 2rem;
+}
+
+.countdown-el span {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.countdown-el {
+  height: 200px;
+  width: 300px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
